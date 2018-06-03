@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:minHeight="80dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/tv_lv_city_weather_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="广州"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:paddingLeft="30dp"/>
+
+        <ImageView
+            android:id="@+id/iv_lv_city_weather_fixed_position"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/fixed_position"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_lv_city_weather_picture"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/weather_0"
+            android:layout_marginTop="17dp"/>
+
+        <TextView
+            android:id="@+id/tv_lv_city_weather_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="34"
+            android:typeface="monospace"
+            android:textSize="48sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="℃"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
