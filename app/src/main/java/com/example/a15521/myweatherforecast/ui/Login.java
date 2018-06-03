@@ -34,8 +34,6 @@ import com.example.a15521.myweatherforecast.utils.ParseJson;
 
 import java.net.URLEncoder;
 
-//version 1.0 this is version 1.0
-
 public class Login extends AppCompatActivity implements View.OnClickListener{
 
     //天气实况UI控件
