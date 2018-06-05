@@ -8,6 +8,8 @@ import android.view.Window;
 
 import com.example.a15521.myweatherforecast.R;
 
+//add by test
+
 //没有网络情况下调至该页面
 public class NoInternet extends AppCompatActivity {
 
